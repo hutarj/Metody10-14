@@ -41,7 +41,7 @@ namespace Metody11
         private void button1_Click(object sender, EventArgs e)
         {
             string s = textBox1.Text;
-            string upraveny;
+            string upraveny; 
             int pocet = PocetSlov(s, out upraveny);
 
             MessageBox.Show("Počet slov je " + pocet + "\n" + upraveny);
