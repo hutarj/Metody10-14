@@ -21,15 +21,17 @@ namespace Metody11
             char[] oddelovac = { ' ' };
             string[] slova = s.Split(oddelovac, StringSplitOptions.RemoveEmptyEntries);
             int pocetSlov = slova.Length;
+            int i;
             upravenyRetezec = s;
 
-            for (int i = 0; i < upravenyRetezec.Length; i++)
+            i = 0;
+            while (i < upravenyRetezec.Length)
             {
                 if (char.IsDigit(upravenyRetezec[i]))
                 {
                     upravenyRetezec = upravenyRetezec.Remove(i, 1);
-                    --i;
                 }
+                else ++i;
             }
 
             return pocetSlov;

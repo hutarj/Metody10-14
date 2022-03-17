@@ -16,5 +16,10 @@ namespace Metody12
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string s = textBox1.Text;
+        }
     }
 }
