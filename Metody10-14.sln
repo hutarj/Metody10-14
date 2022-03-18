@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metody14", "Metody14\Metody
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metody10", "Metody10\Metody10.csproj", "{929F4540-A928-4521-87A2-A2C12C871116}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metody09", "Metody09\Metody09.csproj", "{1654F22F-71EB-4736-87CD-D515776965BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{929F4540-A928-4521-87A2-A2C12C871116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{929F4540-A928-4521-87A2-A2C12C871116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{929F4540-A928-4521-87A2-A2C12C871116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1654F22F-71EB-4736-87CD-D515776965BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1654F22F-71EB-4736-87CD-D515776965BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1654F22F-71EB-4736-87CD-D515776965BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1654F22F-71EB-4736-87CD-D515776965BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

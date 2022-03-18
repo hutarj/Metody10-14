@@ -24,7 +24,7 @@ namespace Metody13
             pocetOst = 0;
             foreach (char item in s)
             {
-                if(char.IsLetterOrDigit(item) || char.IsWhiteSpace(item))
+                if(char.IsLetterOrDigit(item))
                 {
                     if (char.IsUpper(item)) ++pocetVel;
                     else if (char.IsLower(item)) ++pocetMal;
